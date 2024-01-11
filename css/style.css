@@ -605,3 +605,6 @@ body {
 .modal:hover {
     fill: #FFFFFF;
 }
+.modal-window {
+    padding: 72px 24px 24px 24px;
+}
