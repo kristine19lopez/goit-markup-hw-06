@@ -608,3 +608,24 @@ body {
 .modal-window {
     padding: 72px 24px 24px 24px;
 }
+.modal-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+    margin-bottom: 16px;
+}
+.forom-modal {
+    margin-bottom: 8px;
+}
+.modal-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+    
+}
