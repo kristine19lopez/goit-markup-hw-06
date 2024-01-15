@@ -561,8 +561,7 @@
                 <use href="./images/icons.svg#subscribe"></use>
             </svg>
             </button>
-            
-
+        
         </form>
 
     </div>
@@ -584,10 +583,62 @@
             </button>
             <p class="modal-paragraph"></p>
             <form class="modal-form" action="contact-form" autocomplete="on">
+                <!-- first child of form -->
                 <div class="form-modal">
+                    <!-- first child element of div -->
                     <label  class="modal-label" for="user-name">Name</label>
-                    <input type="text">
+                    <div class="input-icon-container">
+                        <input class="input" id="user-name" name="user-name" type="text">
+                        <svg 
+                        class="input-svg"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="24"
+                        >
+                        <use href="./images/icons.svg#human"></use>
+                    </svg>
+                    </div>
                 </div>
+                <!-- 2nd child of the form -->
+                <div class="form-modal">
+                    <!-- 1st child of the div -->
+                    <label class="modal-label" for="user-name">Phone</label>
+                    <div class="input-icon-container">
+                        <input class="input" id="user-name" name="user-name" type="text">
+                        <svg 
+                        class="input-svg"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="24"
+                        >
+                        <use href="./images/icons.svg#telephone"></use>
+                        </svg>
+                    </div>
+                </div>
+                <!-- 3rd child of the form -->
+                <div class="form-modal">
+                    <!-- 1st child of the div -->
+                    <label class="modal-label" for="user-name">Email</label>
+                    <div class="input-icon-container">
+                        <input class="input" id="user-name" name="user-name" type="text">
+                        <svg 
+                        class="input-svg"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="24"
+                        >
+                        <use href="./images/icons.svg#email"></use>
+                        </svg>
+                    </div>
+                </div>
+                <!-- 4th child of the form -->
+                <div class="fourth-form">
+                    <!-- 1st child of div -->
+                    <label class="modal-label" for="user-comment">Comment</label>
+                    <!-- 2nd child -->
+                    <textarea class="textarea" name="user-comment" id="user-comment" cols="30" rows="10" placeholder="text input"></textarea>
+                </div>
+
             </form>
         </div>
     </div>
