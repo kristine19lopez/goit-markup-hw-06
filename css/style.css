@@ -396,7 +396,7 @@ body {
     display: flex;
     gap: 24px;
 }
-.input {
+.input-footer {
     width: 264px;
     height: 40px;
     border: 1px solid var(--WHITE);
