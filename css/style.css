@@ -633,6 +633,7 @@ body {
     position: relative;
 }
 .input {
+    width: 100;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -643,6 +644,7 @@ body {
 }
 .input:focus {
     border-color: var(--IRIS);
+    fill: var(--IRIS);
 }
 .input-svg {
     position: absolute;
