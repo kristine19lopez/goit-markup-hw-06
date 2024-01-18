@@ -649,10 +649,11 @@ body {
     fill: var(--IRIS);
 }
 .input:focus + .input-svg {
-    border-color: var(--IRIS);
     fill: var(--IRIS);
 }
-
+.input:focus,.textarea:focus {
+    border: 1px solid var(--IRIS);
+}
 .input-svg {
     position: absolute;
     left: 16px;
